@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ED2464C1-0186-43AF-BEA5-28A96DD48629}</ProjectGuid>
+    <ProjectGuid>{135A5120-E4B3-4B35-9C96-669DA48F0CB1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Questao01</RootNamespace>
-    <AssemblyName>Questao01</AssemblyName>
+    <RootNamespace>Questao1</RootNamespace>
+    <AssemblyName>Questao1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pessoa.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
