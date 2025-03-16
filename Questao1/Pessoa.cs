@@ -2,8 +2,8 @@
 {
     public class Pessoa
     {
-        public string Nome { get; set; }
-        public int Idade { get; set; }
+        public string Nome;
+        public int Idade;
 
         public Pessoa(string nome, int idade)
         {

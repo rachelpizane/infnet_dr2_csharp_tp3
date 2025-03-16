@@ -11,7 +11,7 @@ namespace Ingressos
         static void Main(string[] args)
         {
             // Solução para as questões 2, 3, 4, 5 e 6
-            // 
+            
             Ingresso ingressoXuxa = new Ingresso("Show da Xuxa", 200, 1000);
             Ingresso ingressoSandyJunior = new Ingresso("Show da Sandy & Junior", 300, 700);
             
